@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* eslint no-console:0 */
+// @flow
 
 const fs = require('fs');
 const path = require('path');

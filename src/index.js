@@ -1,11 +1,12 @@
+// @flow
 const fs = require('fs');
 const R = require('ramda');
 const glob = require('glob');
 const babel = require('babel-core');
 
-process.env.NODE_ENV = 'production'; // for babel
+process.env.NODE_ENV = 'production'; // For babel.transform
 
-function extract(srcPattern) {
+function extract(srcPattern /* : string */) /* : string */ {
   const srcPaths = glob.sync(srcPattern, { absolute: true });
   const relativeSrcPaths = glob.sync(srcPattern);
   const contents = srcPaths.map(p => fs.readFileSync(p, 'utf-8'));
