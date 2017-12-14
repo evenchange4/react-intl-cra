@@ -14,7 +14,7 @@
     "react-intl-cra": "bin/index.js"
   },
   "scripts": {
-    "test": "jest --coverage --runInBand",
+    "test": "NODE_ENV='test' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "eslint": "eslint ./",
     "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' '*.md'",
@@ -51,9 +51,6 @@
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/"
-    ],
-    "coverageReporters": [
-      "text"
     ]
   },
   "flow-coverage-report": {
