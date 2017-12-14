@@ -8,13 +8,13 @@ const Header = () => (
       description="Library name"
       defaultMessage="React Intl CRA"
     />
-    <br/>
+    <br />
     <FormattedMessage
       id="Header.desc"
       description="Library description"
       defaultMessage="Extract messages of `Creact React App` from the command line"
     />
   </div>
-)
+);
 
 export default Header;
