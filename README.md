@@ -1,5 +1,7 @@
 # react-intl-cra
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/evenchange4/react-intl-cra.svg)](https://greenkeeper.io/)
+
 > Extract messages of `Creact React App` from the command line.
 
 This is just a workaround for [create-react-app #1227](https://github.com/facebookincubator/create-react-app/issues/1227#issuecomment-285738137) and [react-intl #869](https://github.com/yahoo/react-intl/issues/869) in unofficial way.
