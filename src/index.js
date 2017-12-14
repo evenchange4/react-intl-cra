@@ -25,8 +25,8 @@ function extract(srcPattern /* : string */) /* : string */ {
     messages,
     relativeSrcPaths
   )
-    .filter(m => m.length !== 0)
-    .reduce((acc, m) => acc.concat(m), []);
+    .filter(R.complement(R.isEmpty))
+    .reduce(R.concat, []);
 
   return result;
 }
