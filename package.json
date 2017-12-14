@@ -2,14 +2,14 @@
   "name": "react-intl-cra",
   "version": "0.2.10",
   "description": "Extract messages of `Creact React App` from the command line",
-  "main": "lib/index.js",
   "repository": "https://github.com/evenchange4/react-intl-cra",
   "author": "Michael Hsu <evenchange4@gmail.com>",
   "license": "MIT",
   "files": [
-    "lib",
+    "src",
     "bin"
   ],
+  "main": "src/index.js",
   "bin": {
     "react-intl-cra": "bin/index.js"
   },
