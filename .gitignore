@@ -1,0 +1,13 @@
+node_modules/
+.yarn-cache/
+
+# files
+npm-debug.log
+lerna-debug.log
+.DS_Store
+
+# babel build
+lib/
+
+# jest
+coverage/

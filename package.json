@@ -1,0 +1,67 @@
+{
+  "name": "react-intl-cra",
+  "version": "0.2.10",
+  "description": "Extract messages of `Creact React App` from the command line",
+  "main": "lib/index.js",
+  "repository": "https://github.com/evenchange4/react-intl-cra",
+  "author": "Michael Hsu <evenchange4@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "react-intl-cra": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo 'TODO'",
+    "eslint": "eslint ./",
+    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' '*.md'"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-react-intl": "^2.3.1",
+    "babel-preset-react-app": "^3.1.0",
+    "glob": "^7.1.2",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "codecov": "^3.0.0",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.4.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "flow-bin": "^0.61.0",
+    "flow-coverage-report": "^0.4.0",
+    "github-changes": "^1.1.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.9.2"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "airbnb-base",
+      "prettier",
+      "prettier/flowtype",
+      "plugin:jest/recommended"
+    ],
+    "plugins": [
+      "prettier",
+      "jest"
+    ],
+    "env": {
+      "jest/globals": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  }
+}
