@@ -8,5 +8,5 @@ ReactDOM.render(
   <IntlProvider locale="en">
     <App />
   </IntlProvider>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );

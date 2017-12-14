@@ -1,5 +1,8 @@
 ## Change Log
 
+### upcoming (2017/12/14 07:06 +00:00)
+- [9441627](https://github.com/evenchange4/react-intl-cra/commit/944162750485bfac3cb247b5c748331cd7f28ca0) docs(CHANGELOG): release 0.2.11 (@evenchange4)
+
 ### v0.2.11 (2017/12/14 06:42 +00:00)
 - [04f3ea0](https://github.com/evenchange4/react-intl-cra/commit/04f3ea0f64879ed36887a1565c3ccff701ba6993) 0.2.11 (@evenchange4)
 - [f09e818](https://github.com/evenchange4/react-intl-cra/commit/f09e8180654532a0874a05dc02bb368d58de7627) test: add coverage (@evenchange4)

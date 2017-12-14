@@ -22,6 +22,6 @@ fs.writeFileSync(desPath, JSON.stringify(result, null, 2));
 console.log(
   `${path.relative(process.cwd(), srcPattern)} -> ${path.relative(
     process.cwd(),
-    desPath,
-  )}`,
+    desPath
+  )}`
 );
