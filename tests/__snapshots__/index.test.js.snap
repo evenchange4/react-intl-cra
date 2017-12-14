@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should extract with one file  1`] = `
+Array [
+  Object {
+    "defaultMessage": "React Intl CRA",
+    "description": "Library name",
+    "filepath": "./tests/cra-project/src/Header.js",
+    "id": "Header.name",
+  },
+  Object {
+    "defaultMessage": "Extract messages of \`Creact React App\` from the command line",
+    "description": "Library description",
+    "filepath": "./tests/cra-project/src/Header.js",
+    "id": "Header.desc",
+  },
+]
+`;
+
+exports[`should extract with source pattern 1`] = `
+Array [
+  Object {
+    "defaultMessage": "Hello {name}, you have {unreadCount, number} {unreadCount, plural, one {message} other {messages}}",
+    "description": undefined,
+    "filepath": "./tests/cra-project/src/App.js",
+    "id": "App.message",
+  },
+  Object {
+    "defaultMessage": "React Intl CRA",
+    "description": "Library name",
+    "filepath": "./tests/cra-project/src/Header.js",
+    "id": "Header.name",
+  },
+  Object {
+    "defaultMessage": "Extract messages of \`Creact React App\` from the command line",
+    "description": "Library description",
+    "filepath": "./tests/cra-project/src/Header.js",
+    "id": "Header.desc",
+  },
+]
+`;

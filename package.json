@@ -14,9 +14,10 @@
     "react-intl-cra": "bin/index.js"
   },
   "scripts": {
-    "test": "echo 'TODO'",
+    "test": "jest --coverage --runInBand",
+    "test:watch": "npm run test -- --watch",
     "eslint": "eslint ./",
-    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' '*.md'",
+    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' '*.md'",
     "flow": "flow",
     "flow-coverage": "flow-coverage-report",
     "changelog": "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -43,6 +44,17 @@
     "github-changes": "^1.1.1",
     "jest": "^21.2.1",
     "prettier": "^1.9.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "coverageReporters": [
+      "text"
+    ]
   },
   "flow-coverage-report": {
     "excludeGlob": [
