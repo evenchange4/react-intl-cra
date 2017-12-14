@@ -16,14 +16,14 @@ function extract(srcPattern /* : string */) /* : string */ {
         presets: [require.resolve('babel-preset-react-app')],
         plugins: [require.resolve('babel-plugin-react-intl')],
         babelrc: false,
-      }),
+      })
     )
     .map(R.path(['metadata', 'react-intl', 'messages']));
 
   const result = R.zipWith(
     (m, r) => m.map(R.assoc('filepath', r)),
     messages,
-    relativeSrcPaths,
+    relativeSrcPaths
   )
     .filter(m => m.length !== 0)
     .reduce((acc, m) => acc.concat(m), []);

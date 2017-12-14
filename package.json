@@ -17,7 +17,7 @@
     "test": "NODE_ENV='test' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "eslint": "eslint ./",
-    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' '*.md'",
+    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' 'README.md'",
     "flow": "flow",
     "flow-coverage": "flow-coverage-report",
     "changelog": "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -65,7 +65,7 @@
     "type": "text"
   },
   "prettier": {
-    "trailingComma": "all",
+    "trailingComma": "es5",
     "singleQuote": true
   },
   "eslintConfig": {
