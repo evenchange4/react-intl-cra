@@ -18,7 +18,8 @@
     "eslint": "eslint ./",
     "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' '*.md'",
     "flow": "flow",
-    "flow-coverage": "flow-coverage-report"
+    "flow-coverage": "flow-coverage-report",
+    "changelog": "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
