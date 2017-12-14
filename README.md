@@ -2,20 +2,19 @@
 
 > Extract messages of `Creact React App` from the command line.
 
-[![Travis][build-badge]][build] 
-[![Codecov Status][codecov-badge]][codecov] 
-[![npm package][npm-badge]][npm] 
-[![npm downloads][npm-downloads]][npm] 
+[![Travis][build-badge]][build]
+[![Codecov Status][codecov-badge]][codecov]
+[![npm package][npm-badge]][npm]
+[![npm downloads][npm-downloads]][npm]
 [![node][node]]()
 
 [![Dependency Status][dependency-badge]][dependency]
-[![devDependency Status][devDependency-badge]][devDependency]
-[![peerDependency Status][peerDependency-badge]][peerDependency]
+[![devDependency Status][devdependency-badge]][devdependency]
+[![peerDependency Status][peerdependency-badge]][peerdependency]
 
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
-
 
 This is just a workaround for [create-react-app #1227](https://github.com/facebookincubator/create-react-app/issues/1227#issuecomment-285738137) and [react-intl #869](https://github.com/yahoo/react-intl/issues/869) in unofficial way.
 
@@ -63,13 +62,12 @@ Output:
 | First - `srcPattern` | The pattern of React component files     |
 | Second - `desPath`   | The output pathname of the `.json` file. |
 
-
 ## Development
 
 ### Requirements
 
--   node >= 9.3.0
--   yarn >= 1.3.2
+* node >= 9.3.0
+* yarn >= 1.3.2
 
 ```
 $ yarn install --pure-lockfile
@@ -89,8 +87,8 @@ $ yarn run test:watch
 
 > Any git tags.
 
-1.  Create a new git tag
-2.  Update `CHANGELOG.md`
+1. Create a new git tag
+2. Update `CHANGELOG.md`
 
 ```console
 $ npm version patch
@@ -123,10 +121,10 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [license]: http://michaelhsu.mit-license.org/
 [dependency-badge]: https://david-dm.org/evenchange4/react-intl-cra.svg?style=flat-square
 [dependency]: https://david-dm.org/evenchange4/react-intl-cra
-[devDependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/dev-status.svg?style=flat-square
-[devDependency]: https://david-dm.org/evenchange4/react-intl-cra#info=devDependencies
-[peerDependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/peer-status.svg?style=flat-square
-[peerDependency]: https://david-dm.org/evenchange4/react-intl-cra#info=peerDependencies
+[devdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/dev-status.svg?style=flat-square
+[devdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=devDependencies
+[peerdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/peer-status.svg?style=flat-square
+[peerdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=peerDependencies
 [greenkeeper-badge]: https://badges.greenkeeper.io/evenchange4/react-intl-cra.svg?style=flat-square
 [greenkeeper]: https://greenkeeper.io/
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
