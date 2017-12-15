@@ -17,26 +17,24 @@
 
 This is just a workaround for [create-react-app #1227](https://github.com/facebookincubator/create-react-app/issues/1227#issuecomment-285738137) and [react-intl #869](https://github.com/yahoo/react-intl/issues/869) in unofficial way.
 
-## Demo
-
-Standalone example based on Create-React-App: https://github.com/evenchange4/react-intl-po-example
-
 ## Installation
 
 ```cmd
 $ yarn add react-intl-cra --dev
 ```
 
-## Usage
+## Demo
+
+Standalone example based on Create-React-App: https://github.com/evenchange4/react-intl-po-example
 
 ```json
-$ react-intl-cra './src/**/*.js' './messages.json'
+$ react-intl-cra './src/**/*.js' -o messages.json
 ```
 
 Output:
 
 ```json
-// Output: messages.json
+// messages.json
 
 [
   {
@@ -54,12 +52,38 @@ Output:
 ]
 ```
 
-## API
+### API
 
-| **Arguments**        | **Description**                          |
-| -------------------- | ---------------------------------------- |
-| First - `srcPattern` | The pattern of React component files     |
-| Second - `desPath`   | The output pathname of the `.json` file. |
+```cmd
+$ react-intl-cra --help
+
+Usage: react-intl-cra <pattern> [options]
+
+<pattern> Glob pattern to specify files.
+          Needs to be surrounded with quotes to prevent shell globbing.
+          Guide to globs: https://github.com/isaacs/node-glob
+
+Options:
+  -o, --out-file  Output into a single file                             [string]
+  -h, --help      Show help                                            [boolean]
+  -v, --version   Show version number                                  [boolean]
+
+Examples:
+  react-intl-cra 'src/App.js'                   One file.
+  react-intl-cra 'src/**/*.js'                  Pattern to specify files
+  react-intl-cra 'src/**/*.js' -o message.json  Output into a single file.
+
+
+For more information go to https://github.com/evenchange4/react-intl-cra
+```
+
+## NPM Usage
+
+```js
+import extract from 'react-intl-cra';
+
+const result = extract('./src/**/*.js');
+```
 
 ## Development
 

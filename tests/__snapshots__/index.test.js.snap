@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should extract with one file  1`] = `
+exports[`should extract with one file 1`] = `
 Array [
   Object {
     "defaultMessage": "React Intl CRA",
@@ -15,6 +15,24 @@ Array [
     "id": "Header.desc",
   },
 ]
+`;
+
+exports[`should extract with one file 2`] = `
+"[
+  {
+    \\"id\\": \\"Header.name\\",
+    \\"description\\": \\"Library name\\",
+    \\"defaultMessage\\": \\"React Intl CRA\\",
+    \\"filepath\\": \\"./tests/cra-project/src/Header.js\\"
+  },
+  {
+    \\"id\\": \\"Header.desc\\",
+    \\"description\\": \\"Library description\\",
+    \\"defaultMessage\\": \\"Extract messages of \`Creact React App\` from the command line\\",
+    \\"filepath\\": \\"./tests/cra-project/src/Header.js\\"
+  }
+]
+"
 `;
 
 exports[`should extract with source pattern 1`] = `
@@ -38,4 +56,55 @@ Array [
     "id": "Header.desc",
   },
 ]
+`;
+
+exports[`should extract with source pattern 2`] = `
+"[
+  {
+    \\"id\\": \\"App.message\\",
+    \\"defaultMessage\\": \\"Hello {name}, you have {unreadCount, number} {unreadCount, plural, one {message} other {messages}}\\",
+    \\"filepath\\": \\"./tests/cra-project/src/App.js\\"
+  },
+  {
+    \\"id\\": \\"Header.name\\",
+    \\"description\\": \\"Library name\\",
+    \\"defaultMessage\\": \\"React Intl CRA\\",
+    \\"filepath\\": \\"./tests/cra-project/src/Header.js\\"
+  },
+  {
+    \\"id\\": \\"Header.desc\\",
+    \\"description\\": \\"Library description\\",
+    \\"defaultMessage\\": \\"Extract messages of \`Creact React App\` from the command line\\",
+    \\"filepath\\": \\"./tests/cra-project/src/Header.js\\"
+  }
+]
+"
+`;
+
+exports[`should log error 1`] = `
+[Error: Command failed: ./bin/index.js
+Missing <pattern>
+]
+`;
+
+exports[`should print --help 1`] = `
+"Usage: index.js <pattern> [options]
+
+<pattern> Glob pattern to specify files.
+          Needs to be surrounded with quotes to prevent shell globbing.
+          Guide to globs: https://github.com/isaacs/node-glob
+
+Options:
+  -o, --out-file  Output into a single file                             [string]
+  -h, --help      Show help                                            [boolean]
+  -v, --version   Show version number                                  [boolean]
+
+Examples:
+  index.js 'src/App.js'                   One file.
+  index.js 'src/**/*.js'                  Pattern to specify files
+  index.js 'src/**/*.js' -o message.json  Output into a single file.
+
+For more information go to https://github.com/evenchange4/react-intl-cra
+
+"
 `;
