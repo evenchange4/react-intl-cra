@@ -27,7 +27,7 @@ Standalone example based on Create-React-App: https://github.com/evenchange4/rea
 $ yarn add react-intl-cra --dev
 ```
 
-## Usage
+## CLI Usage
 
 ```json
 $ react-intl-cra './src/**/*.js' './messages.json'
@@ -54,7 +54,38 @@ Output:
 ]
 ```
 
+## NPM Usage
+
+```js
+import extract from 'react-intl-cra';
+
+const result = extract('./src/**/*.js');
+```
+
 ## API
+
+```cmd
+$ react-intl-cra --help
+
+Usage: react-intl-cra <pattern> [options]
+
+<pattern> Glob pattern to specify files.
+          Needs to be surrounded with quotes to prevent shell globbing.
+          Guide to globs: https://github.com/isaacs/node-glob
+
+Options:
+  -o, --out-file  Output into a single file                             [string]
+  -h, --help      Show help                                            [boolean]
+  -v, --version   Show version number                                  [boolean]
+
+Examples:
+  react-intl-cra 'src/App.js'               One file.
+  react-intl-cra 'src/**/*.js'              Pattern to specify files
+  react-intl-cra 'src/**/*.js' -o           Output into a single file.
+  message.json
+
+For more information go to https://github.com/evenchange4/react-intl-cra
+```
 
 | **Arguments**        | **Description**                          |
 | -------------------- | ---------------------------------------- |

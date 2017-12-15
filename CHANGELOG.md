@@ -1,5 +1,9 @@
 ## Change Log
 
+### upcoming (2017/12/15 09:01 +00:00)
+- [2af6b11](https://github.com/evenchange4/react-intl-cra/commit/2af6b114ab6a1d7288880efb7bb20ce653a30ba6) refactor(ramda) (@evenchange4)
+- [e595594](https://github.com/evenchange4/react-intl-cra/commit/e5955946189965ffc149e55278f12bbcaf8ce762) docs(CHANGELOG): release 0.2.12 (@evenchange4)
+
 ### v0.2.12 (2017/12/14 07:11 +00:00)
 - [284c4fb](https://github.com/evenchange4/react-intl-cra/commit/284c4fb8c3c9dc5d3c9eeff717b32c18be715d3f) 0.2.12 (@evenchange4)
 - [#4](https://github.com/evenchange4/react-intl-cra/pull/4) fix(prettier): use es5 trailingComma (#4) (@evenchange4)

@@ -6,9 +6,9 @@ const babel = require('babel-core');
 
 process.env.NODE_ENV = 'production'; // For babel.transform
 
-function extract(srcPattern /* : string */) /* : string */ {
-  const srcPaths = glob.sync(srcPattern, { absolute: true });
-  const relativeSrcPaths = glob.sync(srcPattern);
+function extract(pattern /* : string */) /* : string */ {
+  const srcPaths = glob.sync(pattern, { absolute: true });
+  const relativeSrcPaths = glob.sync(pattern);
   const contents = srcPaths.map(p => fs.readFileSync(p, 'utf-8'));
   const messages = contents
     .map(content =>

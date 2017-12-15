@@ -13,6 +13,9 @@ before_install:
       curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
     fi
 
+install:
+  - yarn install --pure-lockfile
+
 script:
   - yarn run eslint
   - yarn run test
@@ -26,6 +29,7 @@ deploy:
     email: evenchange4@gmail.com
     api_key:
       secure: rHQESJnwDy17+Od+o0GTH6G2KnnDJK6ppAJAvr4w5no0/yM/LC1m65CL+8hpCHoj0uZrgyU4fqcGXgrq5P2aMY39qPx2slsWWBOStbFgZsGNNSd5som1xs/zAEJg6a/j9qrK5m6gOR8xC5TUJHwyKfBfWD/F72zXNBbsAbgHKuSMSoRMmIsTV/JxMDc3S/sHd3KToj0gSx/15z6btEtAjeQihQeSgzPqtEXfLUo9TyrYawsvL8p+62wS7yeaglGklNZqWuEbc3u8IvLlhd4wVlQGbahJDTh6lTfA0Xa+56uuvS34vo5i2jeCbN5StROjOmepcm5Gb7xr7GfRllvyx0TmbdSmTeYkVHywyHSvpcRLUg2uefLIma0QZoOY9bneNmlE+x19dxMtm8YSQD6qfo/XL8r6vvO0tTJ5Jq2PbqJ3L/fXzPR9XzDREELGB3Od4tToZrpDYIkQCAJlsGTYn1r788uXmSYmGCn2XLy1PkPB0vP2eg9SF2kIZYz3LUJgjoFktNgf/h3lRatQY4wws09nN7wVQwUnOsqObxvGnr2Vl2lHQbT0+Z1a3KQ7Zj1VvQvoJgE7CRKiKau9hfVE7LVVDZPvcjR4TPT3t/gXUKybYVXlmS42PRCW/815yPUZRMEqWUiqqo/K4hP3x/fwkfY6K+J+XS/cRAAwA1bGn38=
+    skip_cleanup: true
     on:
       tags: true
       repo: evenchange4/react-intl-cra
