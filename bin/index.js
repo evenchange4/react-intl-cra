@@ -36,7 +36,7 @@ const { _: [pattern], outFile } = require('yargs')
   )
   .fail((msg, err) => {
     if (err) throw err; // preserve stack
-    console.error(chalk.red(msg));
+    console.error(chalk.red(msg)); // eslint-disable-line
     process.exit(1);
   }).argv;
 
@@ -46,12 +46,12 @@ const result = JSON.stringify(extract(pattern), null, 2);
 if (outFile) {
   spawnSync('mkdir', ['-p', path.dirname(outFile)]);
   fs.writeFileSync(outFile, result);
-  console.log(
+  console.log( // eslint-disable-line
     `${path.relative(process.cwd(), pattern)} -> ${path.relative(
       process.cwd(),
       outFile
     )}`
   );
 } else {
-  console.log(result);
+  console.log(result); // eslint-disable-line
 }
