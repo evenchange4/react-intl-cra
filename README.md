@@ -23,18 +23,18 @@ This is just a workaround for [create-react-app #1227](https://github.com/facebo
 $ yarn add react-intl-cra --dev
 ```
 
-### Demo
+## Demo
 
 Standalone example based on Create-React-App: https://github.com/evenchange4/react-intl-po-example
 
 ```json
-$ react-intl-cra './src/**/*.js' -o './messages.json'
+$ react-intl-cra './src/**/*.js' -o messages.json
 ```
 
-### Output:
+Output:
 
 ```json
-// Output: messages.json
+// messages.json
 
 [
   {
