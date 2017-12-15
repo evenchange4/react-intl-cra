@@ -1,6 +1,8 @@
 ## Change Log
 
-### upcoming (2017/12/15 09:01 +00:00)
+### v0.3.0 (2017/12/15 09:26 +00:00)
+- [a3fda3e](https://github.com/evenchange4/react-intl-cra/commit/a3fda3e88ff7186bb642b772fa2bba16c0bb6a03) 0.3.0 (@evenchange4)
+- [#5](https://github.com/evenchange4/react-intl-cra/pull/5) feat(CLI): make CLI more readable [BREAKING] (#5) (@evenchange4)
 - [2af6b11](https://github.com/evenchange4/react-intl-cra/commit/2af6b114ab6a1d7288880efb7bb20ce653a30ba6) refactor(ramda) (@evenchange4)
 - [e595594](https://github.com/evenchange4/react-intl-cra/commit/e5955946189965ffc149e55278f12bbcaf8ce762) docs(CHANGELOG): release 0.2.12 (@evenchange4)
 
