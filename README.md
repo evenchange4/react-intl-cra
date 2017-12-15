@@ -79,18 +79,13 @@ Options:
   -v, --version   Show version number                                  [boolean]
 
 Examples:
-  react-intl-cra 'src/App.js'               One file.
-  react-intl-cra 'src/**/*.js'              Pattern to specify files
-  react-intl-cra 'src/**/*.js' -o           Output into a single file.
-  message.json
+  react-intl-cra 'src/App.js'                   One file.
+  react-intl-cra 'src/**/*.js'                  Pattern to specify files
+  react-intl-cra 'src/**/*.js' -o message.json  Output into a single file.
+  
 
 For more information go to https://github.com/evenchange4/react-intl-cra
 ```
-
-| **Arguments**        | **Description**                          |
-| -------------------- | ---------------------------------------- |
-| First - `srcPattern` | The pattern of React component files     |
-| Second - `desPath`   | The output pathname of the `.json` file. |
 
 ## Development
 
