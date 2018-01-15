@@ -5,10 +5,7 @@
   "repository": "https://github.com/evenchange4/react-intl-cra",
   "author": "Michael Hsu <evenchange4@gmail.com>",
   "license": "MIT",
-  "files": [
-    "src",
-    "bin"
-  ],
+  "files": ["src", "bin"],
   "main": "src/index.js",
   "bin": {
     "react-intl-cra": "bin/index.js"
@@ -17,10 +14,13 @@
     "test": "NODE_ENV='test' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "eslint": "eslint ./",
-    "format": "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' 'README.md'",
+    "format":
+      "prettier --write 'src/**/*.{js,json}' 'bin/**/*.{js,json}' 'tests/**/*.{js,json}' '*.md'",
     "flow": "flow",
     "flow-coverage": "flow-coverage-report",
-    "changelog": "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
+    "precommit": "lint-staged",
+    "changelog":
+      "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -44,31 +44,27 @@
     "flow-bin": "0.63.1",
     "flow-coverage-report": "0.4.0",
     "github-changes": "1.1.2",
+    "husky": "0.14.3",
     "jest": "22.0.6",
+    "lint-staged": "6.0.0",
     "prettier": "1.10.2"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/node_modules/"
-    ]
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "testPathIgnorePatterns": ["<rootDir>/node_modules/"]
   },
   "flow-coverage-report": {
-    "excludeGlob": [
-      "node_modules/**"
-    ],
-    "includeGlob": [
-      "src/**/*.js",
-      "bin/**/*.js"
-    ],
+    "excludeGlob": ["node_modules/**"],
+    "includeGlob": ["src/**/*.js", "bin/**/*.js"],
     "threshold": 90,
     "type": "text"
   },
   "prettier": {
     "trailingComma": "es5",
     "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"]
   },
   "eslintConfig": {
     "parser": "babel-eslint",
@@ -78,10 +74,7 @@
       "prettier/flowtype",
       "plugin:jest/recommended"
     ],
-    "plugins": [
-      "prettier",
-      "jest"
-    ],
+    "plugins": ["prettier", "jest"],
     "env": {
       "jest/globals": true
     },

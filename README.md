@@ -11,7 +11,6 @@
 [![devDependency Status][devdependency-badge]][devdependency]
 [![peerDependency Status][peerdependency-badge]][peerdependency]
 
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
@@ -147,7 +146,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [devdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=devDependencies
 [peerdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/peer-status.svg?style=flat-square
 [peerdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=peerDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/evenchange4/react-intl-cra.svg?style=flat-square
-[greenkeeper]: https://greenkeeper.io/
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
