@@ -32,20 +32,20 @@
     "yargs": "^10.0.3"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.3",
-    "codecov": "^3.0.0",
-    "eslint": "^4.13.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.5.0",
-    "eslint-plugin-prettier": "^2.3.1",
-    "flow-bin": "^0.61.0",
-    "flow-coverage-report": "^0.4.0",
-    "github-changes": "^1.1.1",
-    "jest": "^21.2.1",
-    "prettier": "^1.9.2"
+    "babel-eslint": "8.2.1",
+    "codecov": "3.0.0",
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-flowtype": "2.41.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jest": "21.6.2",
+    "eslint-plugin-prettier": "2.4.0",
+    "flow-bin": "0.61.0",
+    "flow-coverage-report": "0.4.0",
+    "github-changes": "1.1.2",
+    "jest": "21.2.1",
+    "prettier": "1.10.2"
   },
   "jest": {
     "collectCoverageFrom": [
