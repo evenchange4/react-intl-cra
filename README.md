@@ -11,7 +11,6 @@
 [![devDependency Status][devdependency-badge]][devdependency]
 [![peerDependency Status][peerdependency-badge]][peerdependency]
 
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
@@ -19,7 +18,7 @@ This is just a workaround for [create-react-app #1227](https://github.com/facebo
 
 ## Installation
 
-```cmd
+```sh
 $ yarn add react-intl-cra --dev
 ```
 
@@ -54,7 +53,7 @@ Output:
 
 ### API
 
-```cmd
+```sh
 $ react-intl-cra --help
 
 Usage: react-intl-cra <pattern> [options]
@@ -89,7 +88,7 @@ const result = extract('./src/**/*.js');
 
 ### Requirements
 
-* node >= 9.3.0
+* node >= 9
 * yarn >= 1.3.2
 
 ```
@@ -113,7 +112,7 @@ $ yarn run test:watch
 1. Create a new git tag
 2. Update `CHANGELOG.md`
 
-```console
+```sh
 $ npm version patch
 $ npm run changelog
 ```
@@ -147,7 +146,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [devdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=devDependencies
 [peerdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/peer-status.svg?style=flat-square
 [peerdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=peerDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/evenchange4/react-intl-cra.svg?style=flat-square
-[greenkeeper]: https://greenkeeper.io/
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
