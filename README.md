@@ -18,7 +18,7 @@ This is just a workaround for [create-react-app #1227](https://github.com/facebo
 
 ## Installation
 
-```cmd
+```sh
 $ yarn add react-intl-cra --dev
 ```
 
@@ -53,7 +53,7 @@ Output:
 
 ### API
 
-```cmd
+```sh
 $ react-intl-cra --help
 
 Usage: react-intl-cra <pattern> [options]
@@ -88,7 +88,7 @@ const result = extract('./src/**/*.js');
 
 ### Requirements
 
-* node >= 9.3.0
+* node >= 9
 * yarn >= 1.3.2
 
 ```
@@ -112,7 +112,7 @@ $ yarn run test:watch
 1. Create a new git tag
 2. Update `CHANGELOG.md`
 
-```console
+```sh
 $ npm version patch
 $ npm run changelog
 ```
