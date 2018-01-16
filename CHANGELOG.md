@@ -1,7 +1,13 @@
 ## Change Log
 
-### upcoming (2018/01/15 02:24 +00:00)
+### v0.3.1 (2018/01/16 02:58 +00:00)
 
+* [70c7195](https://github.com/evenchange4/react-intl-cra/commit/70c7195b081f58296cd29577dbcb2116cf68ea35) 0.3.1 (@evenchange4)
+* [#17](https://github.com/evenchange4/react-intl-cra/pull/17) chore(deps): update dependency eslint-plugin-prettier to v2.5.0 (#17) (@renovate[bot])
+* [#16](https://github.com/evenchange4/react-intl-cra/pull/16) chore(deps): update dependency jest to v22.1.1 (#16) (@renovate[bot])
+* [#15](https://github.com/evenchange4/react-intl-cra/pull/15) chore(deps): update dependency jest to v22.1.0 (#15) (@renovate[bot])
+* [#14](https://github.com/evenchange4/react-intl-cra/pull/14) chore: re-generate yarn lock (#14) (@evenchange4)
+* [#13](https://github.com/evenchange4/react-intl-cra/pull/13) chore: add precommit hook (#13) (@evenchange4)
 * [#12](https://github.com/evenchange4/react-intl-cra/pull/12) chore(deps): update dependency jest to v22 (#12) (@renovate[bot])
 * [#11](https://github.com/evenchange4/react-intl-cra/pull/11) chore(deps): update dependency flow-bin to v0.63.1 (#11) (@renovate[bot])
 * [#10](https://github.com/evenchange4/react-intl-cra/pull/10) chore(deps): pin dependencies (#10) (@renovate[bot])
