@@ -1,5 +1,20 @@
 ## Change Log
 
+### v0.3.2 (2018/01/24 08:49 +00:00)
+
+* [188dc1e](https://github.com/evenchange4/react-intl-cra/commit/188dc1e657a27968349585adf17a0fb0199daa0f) 0.3.2 (@evenchange4)
+* [#26](https://github.com/evenchange4/react-intl-cra/pull/26) chore(ncu): update babel-plugin-react-intl to 2.4.0 (#26) (@evenchange4)
+* [#25](https://github.com/evenchange4/react-intl-cra/pull/25) fix(deps): update dependency yargs to ^11.0.0 (#25) (@renovate[bot])
+* [#24](https://github.com/evenchange4/react-intl-cra/pull/24) chore(deps): update dependency flow-coverage-report to v0.4.1 (#24) (@renovate[bot])
+* [#22](https://github.com/evenchange4/react-intl-cra/pull/22) chore(deps): update dependency jest to v22.1.4 (#22) (@renovate[bot])
+* [#21](https://github.com/evenchange4/react-intl-cra/pull/21) chore(deps): update dependency lint-staged to v6.0.1 (#21) (@renovate[bot])
+* [#23](https://github.com/evenchange4/react-intl-cra/pull/23) chore(deps): update dependency eslint to v4.16.0 (#23) (@renovate[bot])
+* [#20](https://github.com/evenchange4/react-intl-cra/pull/20) chore(deps): update dependency jest to v22.1.3 (#20) (@renovate[bot])
+* [#19](https://github.com/evenchange4/react-intl-cra/pull/19) chore(deps): update dependency eslint-plugin-jest to v21.7.0 (#19) (@renovate[bot])
+* [#18](https://github.com/evenchange4/react-intl-cra/pull/18) chore(deps): update dependency jest to v22.1.2 (#18) (@renovate[bot])
+* [07240e8](https://github.com/evenchange4/react-intl-cra/commit/07240e87f99b4d43f8681c256dfd0db55b94c5d7) docs(LICENSE): update year (@evenchange4)
+* [498b37e](https://github.com/evenchange4/react-intl-cra/commit/498b37e2fdbc6ead52c51baf94167a90ee137f03) docs(CHANGELOG): release 0.3.1 (@evenchange4)
+
 ### v0.3.1 (2018/01/16 02:58 +00:00)
 
 * [70c7195](https://github.com/evenchange4/react-intl-cra/commit/70c7195b081f58296cd29577dbcb2116cf68ea35) 0.3.1 (@evenchange4)
