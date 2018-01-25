@@ -1,5 +1,12 @@
 ## Change Log
 
+### v0.3.3 (2018/01/25 14:27 +00:00)
+
+* [8c66e5e](https://github.com/evenchange4/react-intl-cra/commit/8c66e5e31d53dcb6b6f0a45bc1d04156efbba888) 0.3.3 (@evenchange4)
+* [#30](https://github.com/evenchange4/react-intl-cra/pull/30) fix(renovate): pinOnlyDevDependencies (#30) (@evenchange4)
+* [c0587ec](https://github.com/evenchange4/react-intl-cra/commit/c0587ec22ae39fb2b07f3f03de3001fca7b84fc7) fix(renovate): use config:js-lib for library [#29](@evenchange4)
+* [91f525e](https://github.com/evenchange4/react-intl-cra/commit/91f525e8e6056cb86a0658c65340b1188fc90943) docs(CHANGELOG): release 0.3.2 (@evenchange4)
+
 ### v0.3.2 (2018/01/24 08:49 +00:00)
 
 * [188dc1e](https://github.com/evenchange4/react-intl-cra/commit/188dc1e657a27968349585adf17a0fb0199daa0f) 0.3.2 (@evenchange4)
