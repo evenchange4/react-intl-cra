@@ -23,13 +23,13 @@
       "github-changes -o evenchange4 -r react-intl-cra -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
   },
   "dependencies": {
-    "babel-core": "6.26.0",
-    "babel-plugin-react-intl": "2.4.0",
-    "babel-preset-react-app": "3.1.1",
-    "chalk": "2.3.0",
-    "glob": "7.1.2",
-    "ramda": "0.25.0",
-    "yargs": "11.0.0"
+    "babel-core": "^6.26.0",
+    "babel-plugin-react-intl": "^2.4.0",
+    "babel-preset-react-app": "^3.1.1",
+    "chalk": "^2.3.0",
+    "glob": "^7.1.2",
+    "ramda": "^0.25.0",
+    "yargs": "^11.0.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.1",
@@ -37,11 +37,11 @@
     "eslint": "4.16.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-flowtype": "2.41.0",
+    "eslint-plugin-flowtype": "2.42.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jest": "21.7.0",
     "eslint-plugin-prettier": "2.5.0",
-    "flow-bin": "0.63.1",
+    "flow-bin": "0.64.0",
     "flow-coverage-report": "0.4.1",
     "github-changes": "1.1.2",
     "husky": "0.14.3",
