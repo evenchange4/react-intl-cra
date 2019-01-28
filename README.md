@@ -1,3 +1,7 @@
+# ⚠️ Deprecated - This repository is no longer maintained
+
+Please use [react-intl.macro](https://github.com/evenchange4/react-intl.macro) or [react-app-rewired](https://github.com/timarney/react-app-rewired) solution.
+
 # react-intl-cra
 
 > Extract messages of `Creact React App` from the command line.
@@ -6,10 +10,6 @@
 [![Codecov Status][codecov-badge]][codecov]
 [![npm package][npm-badge]][npm]
 [![npm downloads][npm-downloads]][npm]
-
-[![Dependency Status][dependency-badge]][dependency]
-[![devDependency Status][devdependency-badge]][devdependency]
-[![peerDependency Status][peerdependency-badge]][peerdependency]
 
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
@@ -140,11 +140,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [npm-downloads]: https://img.shields.io/npm/dt/react-intl-cra.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/react-intl-cra.svg?style=flat-square
 [license]: http://michaelhsu.mit-license.org/
-[dependency-badge]: https://david-dm.org/evenchange4/react-intl-cra.svg?style=flat-square
-[dependency]: https://david-dm.org/evenchange4/react-intl-cra
-[devdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/dev-status.svg?style=flat-square
-[devdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=devDependencies
-[peerdependency-badge]: https://david-dm.org/evenchange4/react-intl-cra/peer-status.svg?style=flat-square
-[peerdependency]: https://david-dm.org/evenchange4/react-intl-cra#info=peerDependencies
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier

@@ -1,5 +1,13 @@
 ## Change Log
 
+### v0.3.4 (2019/01/28 08:20 +00:00)
+
+* [#47](https://github.com/evenchange4/react-intl-cra/pull/47) feat(babel): Support babel-plugins flag (#47) (@dachinat)
+* [#32](https://github.com/evenchange4/react-intl-cra/pull/32) chore(deps): update dependency eslint-plugin-prettier to v2.6.0 (#32) (@renovate[bot])
+* [#33](https://github.com/evenchange4/react-intl-cra/pull/33) chore(deps): update dependency eslint to v4.17.0 (#33) (@renovate[bot])
+* [#31](https://github.com/evenchange4/react-intl-cra/pull/31) chore(deps): update dependency lint-staged to v6.1.0 (#31) (@renovate[bot])
+* [14fa8ee](https://github.com/evenchange4/react-intl-cra/commit/14fa8eec19986e91426b5dfdbe97f91c6e834505) docs(CHANGELOG): release (@evenchange4)
+
 ### v0.3.3 (2018/01/25 14:27 +00:00)
 
 * [8c66e5e](https://github.com/evenchange4/react-intl-cra/commit/8c66e5e31d53dcb6b6f0a45bc1d04156efbba888) 0.3.3 (@evenchange4)
