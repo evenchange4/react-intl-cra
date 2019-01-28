@@ -9,7 +9,7 @@ const pkg = require('../package.json');
 const extract = require('../src/index');
 
 // CLI Arguments
-const { _: [pattern], outFile } = require('yargs')
+const { _: [pattern], outFile, babelPlugins } = require('yargs')
   .usage(
     `Usage: ${chalk.green('$0')} <pattern> [options]\n
 <pattern>\t Glob pattern to specify files.
@@ -24,6 +24,11 @@ const { _: [pattern], outFile } = require('yargs')
     nargs: 1,
     type: 'string',
   })
+  .option('b', {
+    alias: 'babel-plugins',
+    describe: 'Specify babel plugins',
+    type: 'array',
+  })
   .alias('h', 'help')
   .version(pkg.version)
   .alias('v', 'version')
@@ -31,6 +36,10 @@ const { _: [pattern], outFile } = require('yargs')
   .example(`$0 'src/App.js'`, 'One file.')
   .example(`$0 'src/**/*.js'`, 'Pattern to specify files')
   .example(`$0 'src/**/*.js' -o message.json`, 'Output into a single file.')
+  .example(
+    `$0 'src/**/*.js' -o message.json -b transform-function-bind`,
+    'Separate plugins by space.'
+  )
   .epilogue(
     'For more information go to https://github.com/evenchange4/react-intl-cra'
   )
@@ -40,13 +49,14 @@ const { _: [pattern], outFile } = require('yargs')
     process.exit(1);
   }).argv;
 
-const result = JSON.stringify(extract(pattern), null, 2);
+const result = JSON.stringify(extract(pattern, babelPlugins), null, 2);
 
 // Output
 if (outFile) {
   spawnSync('mkdir', ['-p', path.dirname(outFile)]);
   fs.writeFileSync(outFile, result);
-  console.log( // eslint-disable-line
+  console.log(
+    // eslint-disable-line
     `${path.relative(process.cwd(), pattern)} -> ${path.relative(
       process.cwd(),
       outFile
