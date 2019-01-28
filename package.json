@@ -41,7 +41,7 @@
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jest": "21.7.0",
     "eslint-plugin-prettier": "2.6.0",
-    "flow-bin": "0.64.0",
+    "flow-bin": "0.91.0",
     "flow-coverage-report": "0.4.1",
     "github-changes": "1.1.2",
     "husky": "0.14.3",
