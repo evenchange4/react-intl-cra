@@ -45,7 +45,7 @@
     "flow-coverage-report": "0.4.1",
     "github-changes": "1.1.2",
     "husky": "0.14.3",
-    "jest": "22.1.4",
+    "jest": "22.4.4",
     "lint-staged": "6.1.0",
     "prettier": "1.10.2"
   },
